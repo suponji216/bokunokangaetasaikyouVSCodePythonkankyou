@@ -12,9 +12,10 @@
 		"editor.formatOnSave": true,
 		"files.autoSave": "onFocusChange",
 		"python.linting.lintOnSave": true,
-		"python.linting.pylintEnabled": true,
+		"python.linting.pylintEnabled": false,
 		"python.linting.flake8Enabled": true,
 		"python.linting.flake8Args": [
+			"--ignore=W293, W504, F401",
 			"--max-line-length=150",
 			"--max-complexity=20"
 		],
@@ -23,6 +24,7 @@
 			"--aggressive",
 			"--aggressive",
 		],
-		"workbench.colorTheme": "Darcula Pycharm with Dark GUI"
+		"workbench.colorTheme": "Darcula Pycharm with Dark GUI",
+		"python.envFile": "venv"
 	}
 }

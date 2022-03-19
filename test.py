@@ -1,6 +1,7 @@
+from logging import getLogger, StreamHandler, INFO, Formatter
 import flake8
 import autopep8
-from logging import getLogger, StreamHandler, INFO, Formatter
+
 
 logger = getLogger(__name__)
 
